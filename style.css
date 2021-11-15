@@ -9,10 +9,12 @@ ul {
     padding: 0;
     margin: 0;
 }
+
 li{
     list-style: none;
     margin-top: 150px;
 }
+
 header{
     background-color:rgb(190, 132, 22);
     height: 182px;
@@ -25,11 +27,13 @@ h1{
     color: rgb(218, 201, 201);
     text-shadow: 3px 3px 3px rgb(81, 141, 81);
 }
+
 nav li{
     display: inline-block;
     margin-right: 50px;
     margin-left: 60px;
 }
+
 nav li a{
     color: rgb(218, 201, 201);
     text-decoration: none;
@@ -51,6 +55,7 @@ main{
 h2{
     text-align: center;
 }
+
 #hero{
     width: 960px;
     border: 9px solid rgba(6, 24, 12, 0.171);
@@ -66,16 +71,14 @@ h2{
     box-shadow: 5px 5px 5px rgb(54, 46, 26);
     margin-left: 130px;
 }
+
 p{
     text-align: center;
     margin-top: 30px;
 }
+
 li{ 
     margin-top: 0px;
-}
-
-main li{
-    align-items: center;
 }
 
 footer{
