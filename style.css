@@ -47,6 +47,10 @@ main{
     min-height: 700px;
 
 }
+
+h2{
+    text-align: center;
+}
 #hero{
     width: 960px;
     border: 9px solid rgba(6, 24, 12, 0.171);
@@ -60,8 +64,27 @@ main{
     width: 700px;
     border: 5px solid rgba(37, 105, 20, 0.158);
     box-shadow: 5px 5px 5px rgb(54, 46, 26);
+    margin-left: 130px;
 }
 p{
     text-align: center;
     margin-top: 30px;
+}
+li{ 
+    margin-top: 0px;
+}
+
+main li{
+    align-items: center;
+}
+
+footer{
+    height: 60px;
+    background-color:rgb(190, 132, 22);
+    color: rgb(218, 201, 201);
+    text-shadow: 3px 3px 3px rgb(81, 141, 81);
+}
+
+footer p{
+    padding-top: 20px;
 }
