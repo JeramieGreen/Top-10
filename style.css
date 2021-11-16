@@ -52,6 +52,21 @@ main{
 
 }
 
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    list-style: none;
+    margin-left: 230px;
+    margin-bottom: 90px;
+    display: inline-block;
+}
+
+main li:last-child{
+    margin-right: 0px;
+}
 h2{
     text-align: center;
 }
@@ -75,10 +90,6 @@ h2{
 p{
     text-align: center;
     margin-top: 30px;
-}
-
-li{ 
-    margin-top: 0px;
 }
 
 footer{
