@@ -1,36 +1,35 @@
 "use strict"
 
-alert("Click through to see who got the top spot!");
+function pageRating(){
+  let number = prompt("What do you rate your day from 1-5 star?");
+  for(let star = 1; star <= number; star++ ){
+    document.write("<img src='images/star.png'/>");
+}}
 
-let userName = prompt("Hi! What do you call yourself?");
-
-let currentHour = prompt("Who had the number one spot 'Locked-Down' on your playlist in 2020?");
-
-//function hourOfDay(){
-   // let currentHour = prompt("Who had the number one spot 'Locked-Down' on your playlist in 2020?");
-  //  let greeting = "";
-   // if(currentHour = "The Weeknd" || currentHour = "the weeknd"){
-  //      greeting = "You gotta see this list!"; 
-  //  } else if(currentHour = "The weeknd" || currentHour = "weeknd"){
-  //      greeting = "You gotta see this list!";
-  //  } else if(currentHour > 0 ) {
-  //      greeting = "Good Morning";
-  //  }else {
-  //      greeting = "Welcome";
-    //    return greeting;
-//
-  //  }
-    //return greeting;
-
-
-// 11
-
-
-//let greeting = "Click through to see got the top spot!";
-
-
-console.log(userName);
+function startUp(){
+  
+  let userName = prompt("Hi! What do you call yourself?");
+  
+  
+  alert("Click through to see who got the top spot!");
+  
+  console.log(userName);
+  let greeting = "Hey ";
+  document.write(greeting +userName+ "Ready for This List, " + userName.toUpperCase() + "?!");
+  pageRating();
+}
 
 
 
-document.write(greeting + "Ready for This List, " + userName.toUpperCase() + "?!");
+  function whatever(){
+    let currentHour = prompt("Who had the number one spot 'Locked-Down' on your playlist in 2020?");
+return currentHour;
+  }
+
+/*  function displayStars(){
+    let number = prompt("how many stars do you give this website?");
+    for(let star = 1; star <= number; star++ ){
+        document.write('<img src="images/star.png"/>');
+    }*/
+
+
