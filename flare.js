@@ -15,7 +15,9 @@ function startUp(){
   
   console.log(userName);
   let greeting = "Hey ";
-  document.write(greeting +userName+ "Ready for This List, " + userName.toUpperCase() + "?!");
+  document.write(greeting +userName+ ", Ready for This List?!    ");
+
+  
   pageRating();
 }
 
